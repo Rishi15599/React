@@ -6,8 +6,9 @@ import SideBar from './SideBar/SideBar';
 function App() {
   return (
     <div className="App">
-     <Singup  />
-     {/* <SideBar /> */}
+     <SideBar />
+     {/* <Singup  /> */}
+
     </div>
   );
 }

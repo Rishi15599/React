@@ -1,0 +1,21 @@
+div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: cadetblue;
+
+}
+div span{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 180px;
+    margin-right: 180px;
+    letter-spacing: 2px;
+
+}
+a{
+    text-decoration: none;
+}
+
+div  a:hover{
+    color: red;
+}

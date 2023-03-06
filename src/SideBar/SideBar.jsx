@@ -4,12 +4,12 @@ import React from "react"
 function SideBar() {
     return(
     <div>
-        <ol>
-            <li>Singin</li>
-            <li>Singup</li>
-            <li>Contact</li>
-        </ol>
-    </div>)
+        <span><a href="">Singin</a></span>
+        <span><a href="">Singup</a></span>
+        <span><a href="">Contact</a></span>
+    </div>
+    
+    )
 };
 
 
