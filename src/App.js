@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Singup from "./Singup/Singup";
+import Sign_up from "./Sign_up/Sign_up";
 import SideBar from './SideBar/SideBar';
+import Contact from './Contact/Contact';
+import Sign_in from './Sign_in/Sign_in';
 
 function App() {
   return (
     <div className="App">
      <SideBar />
-     {/* <Singup  /> */}
+     <Sign_in />
+     <Sign_up  />
+     <Contact />
 
     </div>
   );

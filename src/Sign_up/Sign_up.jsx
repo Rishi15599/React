@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import "./Singup.css"
+import "./Sign_up.css"
 import ReactDOM from 'react-dom/client';
 import Popup from '../Popup/popup'
 
@@ -48,9 +48,14 @@ export default function Singup()  {
                 <label htmlFor="">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
                 <input name="Email" type="email" id="" placeholder='Please Enter your email' value={user.Email} onChange={handleInputs} required/>
                 <br /><br />
+                <label htmlFor="">Password &nbsp;&nbsp; : </label>
+                <input type="password" name="" id="" />
+                <br /><br />
                 <label htmlFor="">Phone No &nbsp;&nbsp;: </label>
                 <input type="tel" name="PhoneNo" id=""  placeholder='Please Enter your phone' value={user.PhoneNo} onChange={handleInputs} required/>
                 <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                 <label htmlFor="">Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
                 <select name="Gender" id="" value={user.Gender} onChange={handleInputs} required>
                     <option value="Select">Select</option>
@@ -59,12 +64,14 @@ export default function Singup()  {
                     <option value="Others">Others</option>
                 </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
                 <label htmlFor="">DOB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
                 <input type="date" name="DOB" id="" value={user.DOB} onChange={handleInputs}  required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br /><br />
                 <input type="reset" value=" Reset   " />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button onClick={handleSubmit}>Button</button>
+                <button onClick={handleSubmit}>Submit</button>
                
                 <br />
             </form>
